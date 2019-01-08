@@ -28,7 +28,7 @@ $personnes = [
 ];
 foreach ($personnes as $personne){
   if ($personne['age']>=18) {
-    echo $personne['prénom']." a plus de 18 ans \n";
+    echo $personne['prénom']." a 18 ans ou plus.\n";
   }
 }
  ?>
